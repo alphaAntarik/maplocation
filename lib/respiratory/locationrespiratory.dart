@@ -30,6 +30,6 @@ class LocationRespiratory {
   Future<String> getLocation() async {
     LocationData currentLocation = await location.getLocation();
 
-    return "${currentLocation.latitude!.toStringAsFixed(2)} + ${currentLocation.longitude!.toStringAsFixed(2)}";
+    return "${currentLocation.latitude!.toStringAsFixed(2)}+${currentLocation.longitude!.toStringAsFixed(2)}";
   }
 }
