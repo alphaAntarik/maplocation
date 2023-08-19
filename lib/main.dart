@@ -41,7 +41,7 @@ class LocationScreen extends StatelessWidget {
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Text('Latitude: ${state}'),
+                    Text('${state.location}'),
                     // Text('Longitude: $longitude'),
                   ],
                 );
